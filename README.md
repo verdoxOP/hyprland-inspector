@@ -92,13 +92,3 @@ hyprctl -j snapshots ──┘
 ```
 
 The app is local-first. It reads Hyprland IPC data and executes `hyprctl -j` snapshot queries; it does not send compositor data to a remote service.
-
-## Contributing
-
-For a focused local commit, use:
-
-```bash
-./scripts/commit.sh "Describe the change"
-```
-
-The helper stages source and project metadata only; dependencies and build output remain excluded.
