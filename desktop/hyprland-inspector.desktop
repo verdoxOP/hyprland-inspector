@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Hyprland Inspector
+Comment=Visual debugger and live observability console for Hyprland
+Exec=/home/matt/Projects/hyprland-inspector/bin/hyprland-inspector
+Icon=hyprland-inspector
+Terminal=false
+Categories=System;Utility;Development;
+Keywords=Hyprland;window rules;debugger;compositor;
+StartupWMClass=hyprland-inspector

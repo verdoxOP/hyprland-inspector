@@ -1,0 +1,17 @@
+[package]
+name = "hyprland-inspector"
+version = "0.1.0"
+description = "A visual debugger for Hyprland"
+edition = "2021"
+
+[lib]
+name = "hyprland_inspector_lib"
+crate-type = ["cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "2", features = [] }

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Hyprland Inspector",
+  "version": "0.1.0",
+  "identifier": "io.cyberarch.hyprland-inspector",
+  "build": { "frontendDist": "../dist", "devUrl": "http://localhost:1420", "beforeDevCommand": "npm run dev", "beforeBuildCommand": "npm run build" },
+  "app": { "windows": [{ "title": "Hyprland Inspector", "width": 1440, "height": 940, "minWidth": 1040, "minHeight": 700, "decorations": false, "transparent": true }], "security": { "csp": null } },
+  "bundle": { "active": true, "targets": "all", "linux": { "deb": { "depends": [] } } }
+}
